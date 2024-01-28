@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: rgb(18, 19, 25);
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: #eee;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.perfiles-contenedor {
+    width: 500px;
+    min-height: 500px;
+    background-color: #27273f;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid rgb(98, 98, 98);
+}
+
+.perfiles-titulo {
+    color: #eee;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.perfiles-mas {
+    padding: 30px;
+    color: aquamarine;
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+}
+
+.perfiles-mas:hover {
+    color: #368369;
+}
